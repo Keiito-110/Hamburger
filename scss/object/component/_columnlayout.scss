@@ -1,0 +1,15 @@
+.c-columnlayout{
+    display: flex;
+    justify-content: space-between;
+    &_main{
+        width: var(--column-widthl);
+        @media (max-width: ($tab)){
+            width: 100%;
+        };
+    }; 
+};
+.c-columnlayout.close-menu{
+    @media (max-width: 1078px){
+        width: 0%;
+    };
+};

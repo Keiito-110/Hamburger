@@ -1,0 +1,50 @@
+body{
+    font-family: "Yu Gothic Medium", "游ゴシック Medium", "YuGothic", "游ゴシック体", "ヒラギノ角ゴ Pro W3", sans-serif;
+    Line-height: 1.7;
+    font-size:1.4vw;
+    margin:0px;
+    color: #707070;
+};
+
+h1,h2,h3,h4,h5,h6{
+  padding-top:0px;
+  padding-bottom:0px;
+  margin-top:0px;
+  margin-bottom:0px;
+  font-size:1.4vw;
+}
+
+figure{
+  margin:0px;
+}
+
+p{
+	margin:0px;
+}
+
+figure{
+  margin-top:0px;
+  margin-bottom:0px;
+}
+
+ol{
+  margin-top:0px;
+  margin-bottom:0px;
+}
+
+dl{
+  margin-top:0px;
+  margin-bottom:0px;
+}
+
+@media screen and (min-width:1240px) { 
+  body{
+    font-size:1em;
+  }
+}
+
+@media screen and (max-width:600px) { 
+  body{
+    font-size:0.6em;
+  }
+}

@@ -1,0 +1,13 @@
+.l-footer{
+    background-color:#99826D;
+    height: 80px;
+    text-align: center;
+    color: #fff;
+    font-size: 0.5em;
+    &_nav{
+        display: flex;
+        justify-content: center;
+        font-size: 1.5em;
+        line-height: 50px;
+    };
+};

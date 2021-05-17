@@ -1,0 +1,19 @@
+.l-sidebar{
+    width: var(--column-widthr);
+    background-color: #F2EDE9;
+    @media (max-width: 1078px){
+        width: 0; 
+    };
+};
+.c-navsidebar{
+    @media (max-width: 1078px){
+        position: absolute;
+        overflow: hidden;
+    };
+};
+
+.l-sidebar.open-menu{
+    @media (max-width: 1078px){
+        width: 100%;
+    };
+};

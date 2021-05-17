@@ -1,0 +1,23 @@
+$tab: 1078px; // タブレット
+$sp: 767px;  // スマホ
+
+@mixin tab {
+    @media (max-width: ($tab)) {
+        @content;
+    };
+};
+
+@mixin sp {
+    @media (max-width: ($sp)) {
+        @content;
+    };
+};
+
+:root{
+    --header-height: 150px;
+    --search-height: 30px;
+    --access-height: 400px;
+    --column-widthl: 75%;
+    --column-widthr: 25%; 
+};
+
