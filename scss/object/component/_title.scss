@@ -6,7 +6,7 @@
         font-size: 1.7rem;
         font-weight: 900;
         color: #707070;
-        @include tab{
+        @media (max-width: ($tab)){
             margin: 20px;
             line-height: 30px;
         };
@@ -74,15 +74,3 @@
         };
     };
 
-.c-buttonsidebar{
-        margin: 40px 20px;
-        font-size: 20px;
-        font-weight: bold;
-        @include tab{
-            margin-top: 10px;
-            margin-left: -70px;
-            line-height: 30px;
-            position:relative;
-            z-index: 100;
-        };
-};

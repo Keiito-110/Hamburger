@@ -695,19 +695,6 @@ dl {
   }
 }
 
-@media (max-width: 1078px) {
-  .c-navsidebar {
-    position: absolute;
-    overflow: hidden;
-  }
-}
-
-@media (max-width: 1078px) {
-  .l-sidebar.open-menu {
-    width: 100%;
-  }
-}
-
 .c-formheaderform {
   margin-right: 5em;
   margin-top: calc(var(--header-height)/2 - var(--search-height)/2);
@@ -758,6 +745,13 @@ dl {
 .c-formheaderform_button:hover {
   color: #999999;
   font-weight: bold;
+}
+
+@media (max-width: 1078px) {
+  .c-navsidebar {
+    position: absolute;
+    overflow: hidden;
+  }
 }
 
 .c-columnlayout {
@@ -883,6 +877,22 @@ dl {
 .c-titleaccess p {
   margin: 0 50px;
   font-size: 0.6rem;
+}
+
+.c-buttonsidebar {
+  margin: 40px 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+@media (max-width: 1078px) {
+  .c-buttonsidebar {
+    margin-top: 10px;
+    margin-left: -70px;
+    line-height: 30px;
+    position: relative;
+    z-index: 100;
+  }
 }
 
 .c-buttonsidebar {

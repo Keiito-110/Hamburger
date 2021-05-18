@@ -9,7 +9,7 @@
     }; 
 };
 .c-columnlayout.close-menu{
-    @media (max-width: 1078px){
+    @media (max-width: ($tab)){
         width: 0%;
     };
 };

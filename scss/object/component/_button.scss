@@ -1,4 +1,17 @@
+.c-buttonsidebar{
+    margin: 40px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    @media (max-width: ($tab)){
+        margin-top: 10px;
+        margin-left: -70px;
+        line-height: 30px;
+        position:relative;
+        z-index: 100;
+    };
+};
 
 .c_button_footer{
     padding: 0 5px;
 };
+

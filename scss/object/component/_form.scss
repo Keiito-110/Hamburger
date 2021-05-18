@@ -1,7 +1,7 @@
 .c-formheaderform{
     margin-right: 5em;
     margin-top: calc(var(--header-height)/2 - var(--search-height)/2);
-    @include tab{
+    @media (max-width: ($tab)){
         margin: 20px;
     };
     &_search{
