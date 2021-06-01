@@ -2,12 +2,19 @@
     width: var(--column-widthr);
     background-color: #F2EDE9;
     @media (max-width: ($tab)){
-        width: 0; 
+        display: none;
     };
 };
 
-// .l-sidebar.open-menu{
-//     @media (max-width: ($tab)){
-//         width: 100%;
-//     };
-// };
+.l-sidebar.open-menu{
+    @media (max-width: ($tab)){
+        display:inline-block;
+        width: var(--column-widthr);
+        top: 0;
+        height: 100%;
+        position:fixed;
+        background-color: #F2EDE9;
+        right: 0px;
+        z-index: 20;
+    };
+};

@@ -1,0 +1,33 @@
+$btnWidth: 20px;
+$btnHeight: 1px;
+
+.p-hamburger {
+    width           : 50px;
+    height          : 50px;
+    position: relative;
+    font-size:  0rem;
+    @media (max-width: ($tab)){
+	    &::before,
+	    &::after {
+		    content   : "";
+		    width     : $btnWidth;
+		    height    : $btnHeight;
+		    background: #121212;
+		    left      : calc( 50% - ( #{$btnWidth} / 2 ) );
+		    display   : block;
+            position: absolute;
+		    transition: transform 0.2s;
+	    }
+	    &::before {
+		    transform: rotate( 45deg );
+			top      : 23px;
+	    }
+	    &::after {
+			transform: rotate( -45deg );
+			top      : 23px;
+	    }
+	    > span {
+            background: none;
+	    }
+    }
+}

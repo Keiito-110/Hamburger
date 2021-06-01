@@ -21,10 +21,17 @@
  //object
  //====================
 @import "./object/component/form";
-@import "./object/component/nav";
 @import "./object/component/columnlayout";
 @import "./object/component/list";
 @import "./object/component/title";
 @import "./object/component/button";
+@import "./object/component/figure";
+
+ //====================
+ //Project
+ //====================
+@import "./object/project/nav";
+@import "./object/project/hamburger";
+
 
 

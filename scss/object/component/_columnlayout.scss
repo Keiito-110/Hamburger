@@ -1,15 +1,23 @@
 .c-columnlayout{
     display: flex;
     justify-content: space-between;
-    &_main{
+    &--main{
         width: var(--column-widthl);
+
         @media (max-width: ($tab)){
             width: 100%;
+
         };
-    }; 
+    };    
 };
-.c-columnlayout.close-menu{
+
+.c-columnlayout--cover.open-menu{
     @media (max-width: ($tab)){
-        width: 0%;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        position:fixed;
+        z-index: 10;
+        background-color: rgba(0, 0, 0, 0.5);
     };
 };

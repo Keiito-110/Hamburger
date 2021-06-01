@@ -1,0 +1,14 @@
+.p-nav--menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+}
+
+.p-nav--sidebar{
+    @media (max-width: ($tab)){
+        position: absolute;
+        overflow: hidden;
+    };
+};
+

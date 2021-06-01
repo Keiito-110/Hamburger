@@ -13,44 +13,50 @@
 
 <div class="c-columnlayout">
 
-    <div class="c-columnlayout_main">
+    <div class="c-columnlayout--main">
 
-        <header class="l-header">
-            <h1><a class="c-headertitle" href="#">Hamburger</a></h1>
-            <form class="c-formheaderform">
-                <input class="c-formheaderform_search" type="text" name="search" value="" placeholder="&#xf002"  style="font-family: FontAwesome;" /></input>
-                <input class="c-formheaderform_button" type="submit" value="検索"></input>
-            </form>
+        <div class="c-columnlayout--cover"></div>
+    
+
+        <header>
+            <div class="l-header">
+                <h1><a class="c-title--header" href="#">Hamburger</a></h1>
+                <form class="c-form--header">
+                    <input class="c-form--header_search" type="text" name="search" value="" placeholder="&#xf002"  style="font-family: FontAwesome;" /></input>
+                    <input class="c-form--header_button" type="submit" value="検索"></input>
+                </form>
+            </div>
+            <h2><a href="#" class="c-button--menu">Menu</a></h2>
         </header>
 
-        <main class="l-maintop">
-            <h1 class="c-maintitle">ダミーサイト</h1>
+        <main class="l-main--top">
+            <h1 class="c-title--main">ダミーサイト</h1>
         </main>
 
-        <article class="l-mainmenu">
+        <article class="l-main--article">
  
-            <li class="l-mainmenu_takeout">
-                <h2 class="c-mainmenu"><a href="#">Take Out</a></h2>
-                <div class="l-mainmenu_comment">
-                    <dl class="c-mainmenu_article">
+            <li class="l-main--article_takeout c-figure--article_takeout">
+                <h2 class="c-title--article"><a href="#">Take Out</a></h2>
+                <div class="l-main--article_comment">
+                    <dl class="c-title--article_comment">
                         <dt>小見出しが入ります</dt>
                         <dd>テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</dd>
                     </dl>
-                    <dl class="c-mainmenu_article">
+                    <dl class="c-title--article_comment">
                         <dt>小見出しが入ります</dt>
                         <dd>テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</dd>
                     </dl>
                 </div>    
             </li>
     
-            <li class="l-mainmenu_eatin">
-                <h2 class="c-mainmenu"><a href="#">Eat In</a></h2> 
-                <div class="l-mainmenu_comment">
-                    <dl class="c-mainmenu_article">
+            <li class="l-main--article_eatin c-figure--article_eatin">
+                <h2 class="c-title--article"><a href="#">Eat In</a></h2> 
+                <div class="l-main--article_comment">
+                    <dl class="c-title--article_comment">
                         <dt>小見出しが入ります</dt>
                         <dd>テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</dd>
                     </dl>
-                    <dl class="c-mainmenu_article">
+                    <dl class="c-title--article_comment">
                         <dt>小見出しが入ります</dt>
                         <dd>テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</dd>
                     </dl>
@@ -59,8 +65,8 @@
         </article>
 
 
-        <nav class="l-mainaccess">
-            <div class="l-titleaccess c-titleaccess">
+        <nav class="c-figure--access">
+            <div class="l-title--access c-title--access">
                 <h2>見出しが入ります</h2>
                 <p>テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</p>
             </div>
@@ -69,10 +75,15 @@
     </div>
 
     <aside class="l-sidebar">
-        <button class="c-buttonsidebar">Menu</button>
-        <ul class="c-navsidebar">
-            <li><p class="c-listtitle">バーガー</p>
-                <ul class="c-listmenu">
+        <nav class="p-nav--menu">
+            <h1 class="c-title--menu">Menu</h1>
+            <button class="p-hamburger">
+                <span>menuボタン</span>
+            </button>
+        </nav>
+        <ul class="p-nav--sidebar">
+            <li><p class="c-list--title">バーガー</p>
+                <ul class="c-list--menu">
                     <li><a href="#">ハンバーガー</a></li>
                     <li><a href="#">チーズバーガー</a></li>
                     <li><a href="#">テリヤキバーガー</a></li>
@@ -82,16 +93,16 @@
                     <li><a href="#">チキンバーガー</a></li>
                 </ul>
             </li>
-            <li><p class="c-listtitle">サイド</p>
-                <ul class="c-listmenu">
+            <li><p class="c-list--title">サイド</p>
+                <ul class="c-list--menu">
                     <li><a href="#">ポテト</a></li>
                     <li><a href="#">サラダ</a></li>
                     <li><a href="#">ナゲット</a></li>
                     <li><a href="#">コーン</a></li>
                 </ul>
             </li>
-            <li><p class="c-listtitle">ドリンク</p>
-                <ul class="c-listmenu">
+            <li><p class="c-list--title">ドリンク</p>
+                <ul class="c-list--menu">
                     <li><a href="#">コーラ</a></li>
                     <li><a href="#">ファンタ</a></li>
                     <li><a href="#">オレンジ</a></li>
@@ -106,12 +117,12 @@
 </div>
 
 <footer class="l-footer">
-    <nav class="l-footer_nav">
-        <a class="c_button_footer" href="#">ショップ情報</a>
+    <nav class="l-footer--nav c-title--footer">
+        <a class="c_button--footer" href="#">ショップ情報</a>
         <p>|</p>
-        <a class="c_button_footer" href="#">ヒストリー</a>
+        <a class="c_button--footer" href="#">ヒストリー</a>
     </nav>
-    <h1><small>Copyright: RaiseTech</small></h1>
+    <h1 class="c-title--copyright">Copyright: RaiseTech</h1>
 </footer>
 
 <script src="js/jquery.min.js"></script>

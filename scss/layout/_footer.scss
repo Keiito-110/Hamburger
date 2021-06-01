@@ -1,13 +1,10 @@
 .l-footer{
-    background-color:#99826D;
-    height: 80px;
+    height: var(--footer-height);
     text-align: center;
     color: #fff;
-    font-size: 0.5em;
-    &_nav{
+    background-color:#99826D;
+    &--nav{
         display: flex;
         justify-content: center;
-        font-size: 1.5em;
-        line-height: 50px;
     };
 };
