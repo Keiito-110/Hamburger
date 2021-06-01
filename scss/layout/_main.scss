@@ -3,9 +3,6 @@
     position: relative;
     display: flex;
     align-items: center;
-    background: url(../img/pict1.png) no-repeat center center;
-    background-size: cover;
-
 };
 
 .l-main--article{
@@ -34,8 +31,6 @@
         justify-content: flex-end;
     };
 };
-
-
 
 .l-title--access{
     height: var(--access-height);

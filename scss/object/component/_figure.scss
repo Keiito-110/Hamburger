@@ -1,11 +1,18 @@
+.c-figure--top{
+    background: url(../img/pict1.png) no-repeat center center;
+    background-size: cover;  
+};
+
 .c-figure--article_takeout{
     background-image: url(../img/pict2.png);
     background-size: cover;   
 };
+
 .c-figure--article_eatin{
     background-image: url(../img/pict3.png);
     background-size: cover;
 };
+
 .c-figure--access{
     height: var(--access-height);
     background-image: url(../img/Map.png);
