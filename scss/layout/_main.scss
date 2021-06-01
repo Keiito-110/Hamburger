@@ -5,6 +5,26 @@
     align-items: center;
 };
 
+.l-main--archivetop{
+    height: 200px;
+    position: relative;
+    display: flex;
+    align-items: center;
+};
+
+.l-main--archive{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+};
+
+.l-main--archivebox{
+    height: 280px;
+    width: 400px;
+    background-color: #3C2B1C;
+}
+
 .l-main--article{
     position: raltive;
     display: flex;
