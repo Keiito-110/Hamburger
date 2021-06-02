@@ -1,0 +1,84 @@
+.p-pager{
+    height: 30px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &--page{
+        font-size: 0.8rem;
+    };
+
+    &--pre span,
+    &--next span{
+        display: inline-block;
+        margin: 5px 10px;
+        font-size: 1.0rem;
+    };
+
+    &--pagination{
+        height: 30px;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        & li {
+            display: inline;
+            margin: 0 2px;
+            padding: 0;
+            display: inline-block;
+            font-size: 0.8rem;
+            background:#fff;
+            width: 30px;
+            height: 30px;
+            border: 1px solid #3C2B1C;
+            text-align: center;
+            position: relative;
+        };
+        & li a{
+            vertical-align: middle;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            display:table;
+            color: #707070;
+            text-decoration: none;
+        };
+  
+        & li a span{
+            display:table-cell;
+            vertical-align:middle;
+        }
+  
+        & li a:hover,
+        &_active span{
+            color: #fff;
+            background: #3C2B1C;
+        };
+    };
+};
+  
+@media (max-width: ($sp)){
+    .p-pager{
+        justify-content: space-between;
+
+        & p,
+        &--pagination li{
+            display: none;
+        };
+  
+        &--pre span::after{
+            content: "　前へ";
+        };
+  
+        &--next span::before{
+            content: "次へ　";
+        };
+    };
+    p.p-pager--pre,
+    p.p-pager--next{
+        display: inline-block;
+    };
+};

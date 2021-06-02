@@ -1,6 +1,6 @@
 const openbtn = document.querySelector('.c-button--menu');
 const sidebar = document.querySelector('.l-sidebar');
-const main = document.querySelector('.c-columnlayout--scover');
+const main = document.querySelector('.c-columnlayout--cover');
 openbtn.addEventListener('click', () => {
     sidebar.classList.toggle('open-menu');
     main.classList.toggle('open-menu');

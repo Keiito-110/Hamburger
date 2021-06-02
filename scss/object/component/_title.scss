@@ -16,6 +16,10 @@
     color: #fff;
     font-size: 1.5rem;
     margin-left: 3rem;
+    & small{
+        font-size: 0.8rem;
+        margin: 10px;
+    }
 };
 
 .c-title--article{
@@ -98,17 +102,33 @@
     color: #fff;
     font-weight: bold;
     font-size: 1.0rem;
-    margin: 30px 20px;
+    margin: 10px 0px;
     position:relative;
     display: inline-block;
+    &_discription{
+        color: #707070;
+        margin:30px 70px;
+        & dt{
+            font-size: 1.0rem;
+            margin: 10px 0;
+        };
+        & dd{  
+            font-size: 0.6rem;
+        };
+    };
     &_comment{
         color: #fff;
-        margin: 10px;
+        margin: 0 30px;
         & dt{
             font-size: 0.8rem;
         };
         & dd{  
             font-size: 0.6rem;
         };
-    };      
+    };        
+};
+
+.c-title--detail{
+    text-align: center;
+    font-size: 0.8rem;
 };
