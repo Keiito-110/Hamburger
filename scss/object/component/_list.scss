@@ -10,3 +10,21 @@
     };
 };
 
+.c-list--single{
+    background-color: #F5F5F5;
+    height: 200px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    margin: 30px;
+    & h3{
+        margin-left: 30px;
+        font-size: 0.4rem;
+
+    };
+    & li{
+        margin-left: 50px;
+        font-size: 0.4rem;
+    };
+};
+

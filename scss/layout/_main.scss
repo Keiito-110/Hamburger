@@ -76,3 +76,73 @@
     };
 };
 
+.l-main--singletop{
+    height: 300px;
+    position: relative;
+    display: flex;
+    align-items: center;
+};
+
+.l-main--singlequote{
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #f5f5f5;
+    margin: 30px;
+};
+
+.l-main--singlemain{
+    height: 350px;
+    margin: 30px;
+};
+
+.l-main--single{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    @media (max-width: ($sp)){
+        height: 600px;
+        flex-direction: column;
+        align-items: center;
+    };
+};
+.l-main--singlebox{
+    height: 200px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+};
+
+.l-main--singleblock{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px;
+    @media (max-width: ($sp)){
+        flex-direction: column;
+        align-items: center;
+    };
+};
+.l-main--singlecell{
+    height: 150px;
+    width: 32%;
+    margin: 0.5%;
+    @media (max-width: ($tab)){
+        height: 200px;
+        width: 49%;
+        margin: 0.5%;    
+    };
+};
+
+.l-main--singlelist{
+    height: 180px;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: column;
+    margin: 30px;
+};
+
+
+

@@ -1,0 +1,19 @@
+.p-table--single {
+  border-collapse: collapse;
+  border: solid 1px #707070;
+  width: calc(100% - 60px);
+  height: 200px;
+  margin: 30px;
+
+  & td {
+    border: solid 1px#707070;
+    vertical-align: middle;
+    padding-left: 20px;
+    font-size: 0.8rem;
+  };
+};
+
+.p-table--row1{
+   width: 30%;
+}
+
